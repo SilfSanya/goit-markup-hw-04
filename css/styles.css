@@ -254,8 +254,8 @@ button{
 }
 .team-item{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-name-gob{
     padding-top: 32px;
@@ -334,6 +334,11 @@ button{
 .portfolio-item:hover .portfolio-desc{
     transform: translate(0);
 }
+.portfolio-item:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .portfolio-img-desc{
     position: relative;
     overflow: hidden;
@@ -351,9 +356,6 @@ button{
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-subtitle-text{
     padding: 32px 16px;
